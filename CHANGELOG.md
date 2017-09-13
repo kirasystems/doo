@@ -2,12 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased - 2016-06-01
+## Unreleased -
+
+## [0.1.8] - 2017-09-13
+
+### Fixed
+- Bug where `:managed-dependencies` weren't support, thanks to @bbbates
+
+## [0.1.7] - 2016-07-11
 
 ### Changed
 - Wait 1sec after starting the Karma server so that the tests are run right after starting auto
 - Fixed `lein doo` with no arguments
 - Drop `experimental` for Karma
+- ??? Possibly other stuff in original repo
 
 ### Added
 - Karma PhantomJS, Karma SlimerJS, and Karma Electron as new experimental runners

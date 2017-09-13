@@ -1,6 +1,6 @@
-(defproject lein-doo "0.1.7"
+(defproject kirasystems/lein-doo "0.1.8"
   :description "lein-doo is a plugin to run clj.test on different js environments."
-  :url "https://github.com/bensu/doo"
+  :url "https://github.com/kirasystems/doo"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 

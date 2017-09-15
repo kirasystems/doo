@@ -1,4 +1,6 @@
 language: clojure
+install: cd plugin && lein install
+script: cd plugin && lein test
 deploy:
   skip_cleanup: true
   provider: script

@@ -7,7 +7,8 @@
   :scm {:name "git"
         :url "https://github.com/kirasystems/doo"}
 
-  :deploy-repositories [["clojars" {:sign-releases false
+  :deploy-repositories [["clojars" {:url "https://clojars.org/repo"
+                                    :sign-releases false
                                     :username :env
                                     :password :env}]]
 

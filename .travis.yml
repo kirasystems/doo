@@ -7,7 +7,7 @@ deploy:
     tags: true
 notifications:
   slack:
-    secure: TODO
+    secure: ApqrPdS9KcC/792h64MZWmAgku0nDlvNe8BYhtXcB5BLzTYwKt22SJWFYKYRZCDAbHju0qqY2/91n1vtjuh/ull01whdyzu/GrtDm7ctPDQQxUoJ5bXPjA4mfVFFNGmkhkz7vtxB4PczjrAJmW4ZYIIMvv+5Vy7VQLeHGUgZhaYE4K9e/KIVRLz/CXtrvpjw+u2NJLSFpR6cLqkYKe+y+PSOFzfxsd6YD2YijFNDaU7cJts4hm6x4FzDhz6O9q50Jfekc+DURdxXzYba4dMeUTSBKCtT5VbSUoyuhRPEifrzPTU2DPWbYYr9g24YPOP1MhxMfDZVLGWY7fsyIUByVyUaezEIWx+mfO5nFm06i4MVMLP3S/wOD6AoOMTFZTEkWEb0sAkbZfZHoBNwcM8Fy6/u93+ETUkM/Z0NtzkELoZnnYIobGbp9Oks9o6oM1zhX6VebV2qB2WNm7myQEfjOTdDw4bjeXSYFQ672qQbvYe25w9XtM2rw/4MCvpYNwg6iq9rig1ZLy6ssFE7I8xeKMBOin3Gt22BESBk9FjGzHVM96rNwy8dzQJFGyZG/temwvFKF/JgssVD3FKczkhltVLgUv4fATOCgurHj7v998btMa427Ahn+wXQFIhE8IpuU37icwknGnpv68ALfcw3Ug2bsYGI/yTfhyns6I4/WZQ=
 env:
   global:
   - secure: TODO

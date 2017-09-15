@@ -5,9 +5,11 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :scm {:name "git"
-        :url "https://github.com/bensu/doo"}
+        :url "https://github.com/kirasystems/doo"}
 
-  :deploy-repositories [["clojars" {:creds :gpg}]]
+  :deploy-repositories [["clojars" {:sign-releases false
+                                    :username :env
+                                    :password :env}]]
 
   :eval-in-leiningen true
 

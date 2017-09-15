@@ -1,0 +1,14 @@
+language: clojure
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: cd plugin && lein deploy
+  on:
+    tags: true
+notifications:
+  slack:
+    secure: TODO
+env:
+  global:
+  - secure: TODO
+  - secure: TODO

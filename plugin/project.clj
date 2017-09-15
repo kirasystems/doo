@@ -32,4 +32,12 @@
   {:builds {:test {:source-paths ["test/cljs"]
                    :compiler {:output-to "resources/public/js/testable.js"
                               :main lein-doo.runner
-                              :optimizations :whitespace}}}})
+                              :optimizations :whitespace}}}}
+
+  :release-tasks [["vcs" "assert-committed"]
+                  ["change" "version" "leiningen.release/bump-version" "release"]
+                  ["vcs" "commit"]
+                  ["vcs" "tag" "--no-sign"]
+                  ["change" "version" "leiningen.release/bump-version"]
+                  ["vcs" "commit"]
+                  ["vcs" "push"]])

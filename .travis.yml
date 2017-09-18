@@ -1,9 +1,7 @@
 language: clojure
 before_install: cd plugin
 install: lein install
-before_script: cd plugin
 script: lein test
-before_deploy: cd plugin
 deploy:
   skip_cleanup: true
   provider: script

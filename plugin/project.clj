@@ -35,6 +35,7 @@
                               :main lein-doo.runner
                               :optimizations :whitespace}}}}
 
+  ;;; Don't sign the tag, and don't deploy
   :release-tasks [["vcs" "assert-committed"]
                   ["change" "version" "leiningen.release/bump-version" "release"]
                   ["vcs" "commit"]

@@ -27,7 +27,10 @@
                 :dom [:browsers :headless]}}
 
   :profiles {:dev {:dependencies [[org.clojure/clojurescript "0.0-3308"
-                                   :scope "provided"]]}}
+                                   :scope "provided"]]}
+             ;;; To test managed dependencies, load a specific Clojure version
+             :test {:dependencies [[org.clojure/clojure "1.8.0"
+                                    :scope "test"]]}}
 
   :cljsbuild
   {:builds {:test {:source-paths ["test/cljs"]

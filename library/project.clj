@@ -1,11 +1,11 @@
-(defproject doo "0.1.7"
+(defproject kirasystems/doo "0.1.7"
   :description "doo is a library to run clj.test on different js environments."
-  :url "https://github.com/bensu/doo"
+  :url "https://github.com/kirasystems/doo"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :scm {:name "git"
-        :url "https://github.com/bensu/doo"}
+        :url "https://github.com/kirasystems/doo"}
 
   :repositories [["releases" {:url "https://clojars.org/repo"
                               :sign-releases false

@@ -4,6 +4,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased -
 
+## [0.1.9] - 2017-09-20
+
+### Fixed
+- Bug where exiting the test process failed on some environments,
+  thanks to @loomis
+
 ## [0.1.8] - 2017-09-13
 
 ### Fixed

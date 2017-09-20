@@ -1,15 +1,12 @@
 # doo
 
-[![Circle CI](https://circleci.com/gh/bensu/doo.svg?style=svg)](https://circleci.com/gh/bensu/doo)
-[![Build status](https://ci.appveyor.com/api/projects/status/ufuprdbgn5afhudt?svg=true)](https://ci.appveyor.com/project/bensu/doo)
-
 A library and Leiningen plugin to run `cljs.test` in many JS environments.
 
 >  ...and I would have gotten away with it, too, if it wasn't for you meddling kids.
 
 This README is for the latest stable release:
 
-`[kirasystems/lein-doo "0.1.8"]`
+`[kirasystems/lein-doo "0.1.9"]`
 
 To use doo you need to use `[org.clojure/clojurescript "0.0-3308"]` or
 newer.

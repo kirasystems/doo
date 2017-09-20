@@ -1,11 +1,10 @@
 language: clojure
-before_install: cd plugin
-install: lein install
-script: lein test
+install: cd library && lein install && cd ../plugin && lein install && cd ..
+script: cd plugin && lein test && cd ..
 deploy:
   skip_cleanup: true
   provider: script
-  script: lein deploy
+  script: cd library && lein deploy && cd ../plugin && lein deploy && cd ..
   on:
     tags: true
 notifications:

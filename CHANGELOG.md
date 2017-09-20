@@ -4,6 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased -
 
+## [0.1.10] - 2017-09-20
+
+### Fixed
+- Bug where `lein-doo` plugin was still downloading official `doo` releases
+
 ## [0.1.9] - 2017-09-20
 
 ### Fixed

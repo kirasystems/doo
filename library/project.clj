@@ -1,4 +1,4 @@
-(defproject kirasystems/doo "0.1.9"
+(defproject kirasystems/doo "0.1.10"
   :description "doo is a library to run clj.test on different js environments."
   :url "https://github.com/kirasystems/doo"
   :license {:name "Eclipse Public License"
